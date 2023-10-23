@@ -57,7 +57,8 @@ def merge_two_lists(list1, list2)
     final_list
 end
 
-=begindef print_list(list)
+=begin
+def print_list(list)
     while list != nil
         print "#{list.val} "
         list = list.next
